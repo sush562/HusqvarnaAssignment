@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Husqvarna DS Assignment</string>
+
+    <string name="tmdb_api_key" translatable="false">01b496b6f81de3cd688de9972f59b394</string>
+
+    <string name="base_url" translatable="false">https://api.themoviedb.org/3/movie/</string>
+
+    <string name="image_base_url_w500">https://image.tmdb.org/t/p/w500</string>
+
+    <string name="error_message">There seems to be some issue in fetching the data. Please check if your phone is connected to Internet.</string>
+    <string name="error">Error</string>
+    <string name="content_description_movie_poster">Movie Poster</string>
+    <string name="release_date">Release Date</string>
+    <string name="runtime">Runtime</string>
+
+    <string name="movie_list_title">Popular Movies</string>
+</resources>

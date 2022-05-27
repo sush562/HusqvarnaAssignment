@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin">16dp</dimen>
+
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_175dp">175dp</dimen>
+    <dimen name="dimen_250dp">250dp</dimen>
+
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+</resources>
