@@ -55,7 +55,7 @@ class MovieListFragment : Fragment() {
             } else {
                 binding.movieListRv.adapter = MovieViewAdapter(list) { position ->
                     val movie = list[position]
-                    movieSharedViewModel.openMovieDetailPage(MovieDetailData(movie.id, movie.posterPath, movie.originalTitle))
+                    movieSharedViewModel.openMovieDetailPage(MovieDetailData(movie.id, movie.backdropPath, movie.originalTitle))
                 }
             }
         }
