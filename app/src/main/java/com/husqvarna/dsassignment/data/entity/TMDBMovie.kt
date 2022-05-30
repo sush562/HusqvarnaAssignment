@@ -7,7 +7,8 @@ data class TMDBMovieResponse(val page: Int, val results: List<TMDBMovie>, @Seria
 data class TMDBMovie(
     val id: Int,
     @SerializedName("original_title") val originalTitle: String,
-    @SerializedName("poster_path") var posterPath: String
+    @SerializedName("poster_path") var posterPath: String,
+    @SerializedName("backdrop_path") val backdropPath: String
 )
 
 
